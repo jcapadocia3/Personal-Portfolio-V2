@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.mainCont {
+    display: flex;
+}
+
+.leftCont {
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid black;
+}
+
+.rightCont {
+    padding: 30px 30px 30px 30px;
+    border: 2px solid black;
+}
