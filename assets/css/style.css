@@ -40,9 +40,23 @@ footer {
     border: 2px solid black;
 }
 
+.workItem {
+    margin-bottom: 50px;
+    border: 3px solid rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
+}
+
+.workItem > p {
+    color: white;
+}
+
 .contactInfo {
     display: flex;
     justify-content: center;
+}
+
+.contactInfo > p {
+    padding-right: 5px;
 }
 
 @media screen and (max-width: 972px) {
