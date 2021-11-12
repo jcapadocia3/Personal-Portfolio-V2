@@ -3,17 +3,52 @@ footer {
     border: 2px solid black;
 }
 
+.homeBody {
+    margin-top: 100px;
+    background-color: lightslategray;
+}
+
+.homeLayout {
+    text-align: center;
+}
+
 .mainCont {
     display: flex;
+    text-align: center;
 }
 
 .leftCont {
     text-align: center;
-    padding: 30px 30px 30px 30px;
     border: 2px solid black;
+    padding: 50px 50px 50px 50px;
+    background-color: lightslategray;
+}
+
+.meCont {
+    background-color: lightslategray;
+}
+
+.avatar-1 {
+    width: 200px;
+    height: 215px;
+    border-radius: 50%;
+    border: 5px solid rgb(43, 43, 43);
 }
 
 .rightCont {
     padding: 30px 30px 30px 30px;
     border: 2px solid black;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 972px) {
+
+   .mainCont {
+       display: inline;
+   }
+
 }

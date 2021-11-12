@@ -20,117 +20,32 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <main class="mainCont">
-        <div class="leftCont">
-            <nav>
-                <!-- <img id="background" src="./assets/images/background1.jpg" alt="x" width="100%" height="200px"> -->
-                <div class="avatar">
-                    <img class="avatar-1" src="./assets/images/IMG_8160c.jpg" alt="x" width="100px">
-                </div>
-                <h1>James Capadocia</h1>
-                <div class="navLinks">
-                    <p><a id="fastforward" href="#aboutme">About Me</a></p>
-                    <p><a id="fastforward" href="#work">Work</a></p>
-                    <!-- <p><a id="fastforward" href="#contactme">Contact Me</a></p> -->
-                    <p class="dropdownCont">
-                    <div class="dropdownMenu">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuBtn"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Contact Me
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <p class="dropdown-item">P: 847.730.7599</p>
-                            <p class="dropdown-item">E: james.capadocia@gmail.com</p>
-                            <a class="dropdown-item blue" target=_blank
-                                href="https://linkedin.com/in/james-capadocia-156367217">LinkedIn</a>
-                            <a class="dropdown-item blue" target=_blank href="https://github.com/jcapadocia3">Github</a>
-                        </div>
-                    </div>
-                    </p>
-                    <p><a id="fastforward" target=_blank href="./assets/images/Updated Resume.pdf">Resume</a></p>
-                </div>
-            </nav>
+<body class="homeBody">
+    <div class="homeLayout">
+        <div class="avatar">
+            <img class="avatar-1" src="./assets/images/IMG_8160c.jpg" alt="x" width="225px">
         </div>
-
-        <div class="rightCont">
-            <section class="aboutMe" id="aboutMe">
-                <h2>About <span>Me</span></h2>
-                <p>Thanks for visiting my portfolio page! My name is James. I am an aspiring full
-                    stack web and app developer. Currently, I am a student at Northwestern University in a 6 month
-                    bootcamp program to earn a certificate in Coding and Full Stack Web/App Development. This type
-                    of work has always intrigued me, and after 32 years in this world, I was able to convince myself
-                    that, "It's never too late for school, nor to follow your dreams." While I understand that this
-                    field of work is not easy, it's what makes me happy, and each class I attend only proves this
-                    further for myself. With an extensive professional background in sales and servicing (see <a
-                        id="fastforward" target=_blank href="./assets/images/Updated Resume.pdf">Resume</a> linked
-                    above), it excites me to use this experience in this field of work to create websites and apps
-                    alongside with clients and to help make, what starts as a simple vision, a reality.
-                    <br><br>
-                    As my time in this class stands, I currently am well versed in the skills below:
-                    <br><br>
-                    - HTML
-                    <br>
-                    - CSS
-                    <br>
-                    - Javascript
-                    <br>
-                    - Client-side and server-side APIs
-                    <br><br>
-                    With still so much time left in the program, I am excited to continue to master these skills, as
-                    well as learn new skills, to allow for further creativity in my craft.
-                </p>
-            </section>
-
-            <section class="work" id="work">
-                <h3>Work</h3>
-                <div class="workCont">
-
-                    <div class="work1">
-                        <a target=_blank href="https://github.com/nlaramee120/Make-My-Day">
-                            <img src="./assets/images/make-my-day1.png" alt="x"></a>
-                        <p>Make My Day (Project 1)</p>
-                    </div>
-
-                    <div class="work2">
-                        <a target=_blank href="https://github.com/jcapadocia3/Work-Day-Scheduler">
-                            <img src="./assets/images/workdayscheduler1.png" alt="x" width="380px" height="150px"></a>
-                        <p class="titling">Work Day Scheduler</p>
-                    </div>
-
-                    <div class="work3">
-                        <a target=_blank href="https://github.com/jcapadocia3/Code-Quiz">
-                            <img src="./assets/images/code-quiz.png" alt="x" width="380px" height="150px"></a>
-                        <p class="titling">Code Quiz!</p>
-                    </div>
-
-                    <div class="work4">
-                        <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
-                            <img src="./assets/images/IMG_1964c.jpg" alt="x" width="380px" height="150px"></a>
-                        <p class="titling">Coming Soon!</p>
-                    </div>
-
-                    <div class="work5">
-                        <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
-                            <img src="./assets/images/IMG_4584c.jpg" alt="x" width="380px" height="150px"></a>
-                        <p class="titling">Coming Soon!</p>
-                    </div>
-
+        <h1>James Capadocia</h1>
+        <div class="navLinks">
+            <p><a id="fastforward" href="aboutme.html">About Me</a></p>
+            <p><a id="fastforward" href="work.html">Work</a></p>
+            <div class="dropdownMenu">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuBtn"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contact Me
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p class="dropdown-item">P: 847.730.7599</p>
+                    <p class="dropdown-item">E: james.capadocia@gmail.com</p>
+                    <a class="dropdown-item blue" target=_blank
+                        href="https://linkedin.com/in/james-capadocia-156367217">LinkedIn</a>
+                    <a class="dropdown-item blue" target=_blank href="https://github.com/jcapadocia3">Github</a>
                 </div>
-            </section>
+            </div>
+            <p><a id="fastforward" target=_blank href="./assets/images/Updated Resume.pdf">Resume</a></p>
         </div>
-    </main>
-</body>
-
-<footer class="contactMe" id="contactMe">
-    <h4>Contact Me</h4>
-    <div class="contactInfo">
-        <p>P: 847.730.7599</a></p>
-        <p>E: james.capadocia@gmail.com</a></p>
-        <p><a id="third-2" target=_blank href="https://linkedin.com/in/james-capadocia-156367217">LinkedIn</a></p>
-        <p><a id="third-2" target=_blank href="https://github.com/jcapadocia3">Github</a></p>
     </div>
-</footer>
+</body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
