@@ -19,7 +19,7 @@ This project represents a portfolio webpage that a prospect may provide a compan
 ## Final Webpage Image
 
 - Image of final product created<br>
-<img src="./assets/images/finalproduct.png" alt="Final Product" width="900">
+<img src="./assets/images/readmeimg.png" alt="Final Product" width="900">
 
 ## Functionality
 
