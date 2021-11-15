@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-# E-Commerce Back End
+# Personal Portfolio
 
 ## Link to public repo on Github:
 
