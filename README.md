@@ -4,7 +4,11 @@
 
 ## Link to public repo on Github:
 
-https://github.com/jcapadocia3/E-Commerce-Back-End
+https://github.com/jcapadocia3/Personal-Portfolio-V2
+
+## Link to public Github page URL:
+
+https://jcapadocia3.github.io/Personal-Portfolio-V2/
 
 ## Table of Contents
 1. [Description](#Description)
